@@ -197,6 +197,9 @@ gcodeToEvent = {
 
 	# user alert
 	"M300": Events.ALERT,
+	
+	# filament change
+	"M600": Events.ALERT,
 
 	# home print head
 	"G28": Events.HOME,
