@@ -453,6 +453,9 @@ Cooling
 
 Alert
    An ``M300`` was sent to the printer through OctoPrint (not triggered when printing from SD!)
+   
+FillamentChange
+   An ``M600`` was sent to the printer through OctoPrint (not triggered when printing from SD!)
 
 Conveyor
    An ``M240`` was sent to the printer through OctoPrint (not triggered when printing from SD!)
